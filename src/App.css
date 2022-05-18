@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.game_container {
+  margin: 20px auto;
+  margin-bottom: 0;
+  padding: 20px;
+  border: 2px solid silver;
+  background-image: linear-gradient(to bottom, #3177eeff, #113d8aff);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  text-shadow: 2px 0 #a3a3a3;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  padding: 6px;
+  color: white;
+  border: 3px solid white;
+  background-color: #1c4587ff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row_title {
+  margin: 0 5px;
+  height: 13vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.side_heading {
+  color: white;
+  font-family: serif, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 0 #a3a3a3;
+  letter-spacing: 1px;
+}
+.side_heading_span {
+  color: orange;
+}
+.rows_container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 100vh;
+}
+.row {
+  height: 12%;
+  margin: 0 5px;
+}
+.col {
+  border: 2px solid white;
+  margin-top: 5px;
+  background-color: #78909cff;
+}
+.btns_row {
+  margin: 20px 5px 0px 5px;
+  justify-content: space-between;
+  height: 15vh;
+}
+.input_btns_container {
+  height: 70%;
+  border: 3px solid white;
+  margin-top: 5px;
+  background-color: #78909cff;
+  margin-bottom: 10px;
+}
+.hint_btn_container {
+  height: 70%;
+  margin-top: 5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 10px;
+}
+.hint_btn {
+  border-radius: 15px;
+  border: 2px solid white;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #78909cff;
+  letter-spacing: 2px;
+  width: 200px;
+  height: 100%;
+  padding: 0px;
 }
